@@ -1,0 +1,4 @@
+config/*
+public/js/*.min.js
+coverage/*
+**/node_modules/**

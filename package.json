@@ -1,0 +1,32 @@
+{
+  "name": "nippon-colour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint . --fix",
+    "test": "logLevel=warn npx mocha --recursive --timeout 5000",
+    "test:ci": "npx mocha --recursive --timeout 5000 -R mocha-bamboo-reporter",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orche-moon/nippon-colour.git"
+  },
+  "author": "Zheng Shuangyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orche-moon/nippon-colour/issues"
+  },
+  "homepage": "https://github.com/orche-moon/nippon-colour#readme",
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.1.1"
+  }
+}
